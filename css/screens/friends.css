@@ -1,0 +1,12 @@
+.friends-top {
+    padding: 5px;
+    text-align: center;
+    background-color: var(--gray);
+    height: 30px;
+    box-sizing: border-box;
+}
+.friends-top i {
+    opacity: 0.2;
+    margin-right: 10px;
+    margin-left: 5px;
+}

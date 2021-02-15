@@ -1,0 +1,24 @@
+.status {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 3px;
+}
+.status__column {
+    width: 33%;
+}
+.status__column:first-child span {
+    margin: 5px;
+}
+.status__column:nth-child(2) {
+    display: flex;
+    justify-content: center;
+}
+.status__column:last-child {
+    display: flex;
+    justify-content: flex-end;
+}
+.status__column .fa-battery-quarter,
+.status__column .fa-lock {
+    margin-right: 10px;
+}
